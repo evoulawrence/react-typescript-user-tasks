@@ -1,0 +1,31 @@
+.onboarding__tracker{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    
+
+    &__header {
+        color: black;
+        text-align: center;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    &__left__section {
+        flex:1;
+        background-color: #e5e3db;
+    }
+
+    &__right__section {
+        flex: 2;
+        background-color: #e5e3db;
+        margin-left: 40px;
+    }
+
+
+}

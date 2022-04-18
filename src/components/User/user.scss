@@ -1,0 +1,17 @@
+.user {
+
+    &__name{
+        list-style: none;
+        cursor: pointer;
+        padding: 5px 0px;
+
+        &__link {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    .active {
+        background-color: whitesmoke;
+        padding-left: 10px;
+    }
+}
